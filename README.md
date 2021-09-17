@@ -12,6 +12,14 @@ cd tor-0.4.6.7
 make
 make install
 tor --version
+tor -f /etc/tor/torrc
+```
+
+***Copy sample TOR config (DO NOT FORGET TO EDIT IT!)***
+```
+mkdir /etc/tor
+cp /usr/local/etc/tor/torrc.sample /etc/tor/torrc
+nano /etc/tor/torrc
 ```
 
 ***Install Directories***
