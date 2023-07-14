@@ -1,13 +1,13 @@
 # TOR-Linux-Build
 
-***Building latest TOR v0.4.8.1-alpha on Linux***
+***Building latest TOR v0.4.8.2-alpha on Linux***
 ```
 apt update
 apt upgrade
 apt install build-essential libevent-dev libssl-dev zlib1g zlib1g-dev
-wget https://dist.torproject.org/tor-0.4.8.1-alpha.tar.gz
-tar -xvf tor-0.4.8.1-alpha.tar.gz
-cd tor-0.4.8.1-alpha
+wget https://dist.torproject.org/tor-0.4.8.2-alpha.tar.gz
+tar -xvf tor-0.4.8.2-alpha.tar.gz
+cd tor-0.4.8.2-alpha
 ./configure
 make
 make install
