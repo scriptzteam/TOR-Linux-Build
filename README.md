@@ -1,13 +1,13 @@
 # TOR-Linux-Build
 
-***Building latest TOR v0.4.8.9 on Linux***
+***Building latest TOR v0.4.8.11 on Linux***
 ```
 apt update
 apt upgrade
 apt install build-essential libevent-dev libssl-dev zlib1g zlib1g-dev
-wget https://dist.torproject.org/tor-0.4.8.9.tar.gz
-tar -xvf tor-0.4.8.9.tar.gz
-cd tor-0.4.8.9
+wget https://dist.torproject.org/tor-0.4.8.11.tar.gz
+tar -xvf tor-0.4.8.11.tar.gz
+cd tor-0.4.8.11
 ./configure
 make
 make install
